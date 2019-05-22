@@ -41,7 +41,7 @@ def download(file_path):
         # img name spell
         urlname = img_url.split(u"/")
         img_name = filename + '_' + \
-            str(i) + '_' + img_quote + str(urlname[len(urlname) - 1])
+            str(i) + '_md_' + img_quote + str(urlname[len(urlname) - 1])
         print img_name, '~~~', img_url
         # write to file
         f_img = open('img/' + img_name, 'wb')
